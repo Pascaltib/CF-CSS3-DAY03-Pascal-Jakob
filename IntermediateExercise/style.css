@@ -1,12 +1,14 @@
 *{
 	padding: 0;
-	margin: 0 4px;
+	margin: 0;
 }
 
 #content{
 	border: 1px solid black;
-	width: 300px;
+	width: 250px;
 	margin: auto;
+	padding:  0 4px 0 4px;
+	font-size: 10px;
 }
 
 .lineFat{
@@ -39,10 +41,6 @@
 	margin-left: 10px;
 }
 
-.wide.indented{
-	margin-left: 6px;	/* to add up to 10px becuase of parent div margin of 4px */
-}
-
 .innerBoxRight{
 	display: flex;
 	justify-content: space-between;
@@ -53,6 +51,24 @@
 	display: flex;
 	align-items: flex-end;
 	justify-content: space-between;
-	font-size: 10px;
 }
 
+.bottom{
+	width: 25%;
+}
+
+.padIndent{
+	padding-left: 10px;
+}
+
+#footer{
+	justify-content: center;
+}
+
+.footerSpacing{
+	padding: 0 3px 4px 3px;
+}
+
+.finePrint{
+	font-size: 8px;
+}
