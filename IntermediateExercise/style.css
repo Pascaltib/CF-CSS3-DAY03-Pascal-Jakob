@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0 4px;
+}
+
+#content{
+	border: 1px solid black;
+	width: 300px;
+	margin: auto;
+}
+
+.lineFat{
+	border-top: 8px solid black;
+}
+
+.lineBold{
+	border-top: 4px solid black;
+}
+
+.lineNormal{
+	border-top: 1.5px solid black;
+}
+
+.lineGrey{
+	border-top: 2px solid lightgrey;
+}
+
+.narrow{
+	width: 35px;
+	height: auto;
+	text-align: right;
+}
+
+.wide{
+	margin: 0;
+}
+
+.indented{
+	margin-left: 10px;
+}
+
+.wide.indented{
+	margin-left: 6px;	/* to add up to 10px becuase of parent div margin of 4px */
+}
+
+.innerBoxRight{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
+
+.parts{	/* simplify if possible */
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-between;
+	font-size: 10px;
+}
+
