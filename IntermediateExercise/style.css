@@ -5,7 +5,7 @@
 
 #content{
 	border: 1px solid black;
-	width: 250px;
+	width: 225px;
 	margin: auto;
 	padding:  0 4px 0 4px;
 	font-size: 10px;
@@ -54,7 +54,7 @@
 }
 
 .bottom{
-	width: 25%;
+	width: 40px;
 }
 
 .padIndent{
@@ -71,4 +71,13 @@
 
 .finePrint{
 	font-size: 8px;
+}
+.newDiv{
+	display: flex;
+
+	justify-content: space-around;
+}
+.bold{
+	font-weight: bold;
+}
 }
